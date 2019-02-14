@@ -34,7 +34,7 @@ SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);
  */
 int MENU_PRINCIPAL(){
 
-int position = 8, touche;
+int position = 8, touche, teste;
 int choix=0;
 
 
@@ -45,8 +45,8 @@ system("cls");
 gotoxy(23,3);printf("-----------------------------");
 gotoxy(35,4);printf("MENU");
 gotoxy(23,5);printf("-----------------------------");
-gotoxy(23,8);printf("S'authentifier");
-gotoxy(23,10);printf("Jouer ");
+gotoxy(23,8);printf("S'authentifier (texteGIT)");
+gotoxy(23,10);printf("Jouer (testeGit2)");
 gotoxy(23,12);printf("Avoir de l'aide ");
 gotoxy(23,14);printf("Afficher la liste des scores ");
 gotoxy(23,16);printf("Sortir ");
