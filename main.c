@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <windows.h>
 #include <time.h>
-#define DESSOUS 72
+#define DESSOUS 70
 #define HAUT 80
 #define ENTER 13
 #define ESC 27
